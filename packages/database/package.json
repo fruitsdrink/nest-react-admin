@@ -1,0 +1,23 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "db:generate": "npx prisma generate",
+    "db:push": "npx prisma db push --skip-generate",
+    "db:studio": "npx prisma studio",
+    "db:migrate": "npx prisma migrate dev"
+  },
+  "author": "haight",
+  "license": "ISC",
+  "description": "prismas client",
+  "dependencies": {
+    "@prisma/client": "^5.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "prisma": "^5.19.1"
+  }
+}

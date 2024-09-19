@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Loader } from "@/components";
+import { Loader } from "@repo/ui/loader";
 import "./App.css";
 
 const Login = lazy(() => import("@/pages/auth/login"));

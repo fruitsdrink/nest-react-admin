@@ -18,6 +18,10 @@
 
 ## 参考资料
 
+### 代码
+
+- [turborepo-shadcn-ui](https://github.com/dan5py/turborepo-shadcn-ui)
+
 ### UI
 
 - [loading](https://loading.io)

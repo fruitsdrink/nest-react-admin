@@ -6,3 +6,4 @@
 - Nest
 - React
 - [vite](https://cn.vitejs.dev)
+- [tailwindcss](https://tailwindcss.com)

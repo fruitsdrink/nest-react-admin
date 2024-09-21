@@ -26,6 +26,7 @@
     "eslint": "^8.57.0",
     "postcss": "^8.4.47",
     "styled-components": "^6.1.13",
+    "@repo/tailwind-config": "workspace:*",
     "tailwindcss": "^3.4.12",
     "typescript": "^5.3.3"
   },

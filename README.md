@@ -23,6 +23,7 @@
 ### 代码
 
 - [turborepo-shadcn-ui](https://github.com/dan5py/turborepo-shadcn-ui)
+- [turbo-nextui-starter](https://github.com/godkingjay/turbo-nextui-starter/tree/master)
 
 ### UI
 

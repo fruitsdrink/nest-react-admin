@@ -11,6 +11,8 @@
 - [styled component](https://styled-components.com)
 - [react-icon](https://react-icons.github.io/react-icons/)
 - [icones](https://icones.js.org)
+- [react-hook-form](https://react-hook-form.com)
+- [zod](https://zod.dev)
 
 ## vscode扩展
 

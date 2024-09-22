@@ -21,8 +21,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@iconify-icon/react": "^2.1.0",
     "@iconify-json/ant-design": "^1.2.1",
     "@iconify-json/carbon": "^1.2.1",
+    "@iconify-json/ri": "^1.2.0",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

@@ -11,6 +11,8 @@ import {
 } from "@repo/ui/components/ui/form";
 import { Input } from "@repo/ui/components/ui/input";
 import { Button } from "@repo/ui/components/ui/button";
+import { NraInput } from "@repo/ui/nra/input";
+import { Icon } from "@iconify-icon/react";
 
 const formSchema = z.object({
   username: z
@@ -49,7 +51,17 @@ export const LoginForm = () => {
               <FormItem>
                 <FormLabel>登录账号</FormLabel>
                 <FormControl>
-                  <Input placeholder="请输入登录帐号" {...field} />
+                  <NraInput
+                    placeholder="请输入登录帐号"
+                    {...field}
+                    formControl={form}
+                    startContent={
+                      <Icon
+                        icon="carbon:user-filled"
+                        className="text-gray-500"
+                      />
+                    }
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -62,10 +74,14 @@ export const LoginForm = () => {
               <FormItem>
                 <FormLabel>登录密码</FormLabel>
                 <FormControl>
-                  <Input
+                  <NraInput
                     type="password"
                     placeholder="请输入登录密码"
                     {...field}
+                    formControl={form}
+                    startContent={
+                      <Icon icon={"ri:lock-2-fill"} className="text-gray-500" />
+                    }
                   />
                 </FormControl>
                 <FormMessage />

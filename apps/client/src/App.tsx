@@ -1,12 +1,12 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Loader } from "@repo/ui/components/loader";
+import { NraLoader } from "@repo/ui/nra/loader";
 import "./App.css";
 
 const Login = lazy(() => import("@/pages/auth/login/index"));
 function App() {
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<NraLoader />}>
       <Routes>
         <Route path="/login" element={<Login />} />
       </Routes>

@@ -8,11 +8,14 @@
 - [NestJS](https://nestjs.com)
 - [vite](https://cn.vitejs.dev)
 - [tailwindcss](https://tailwindcss.com)
+- [tailwind variants](https://www.tailwind-variants.org)
 - [styled component](https://styled-components.com)
-- [react-icon](https://react-icons.github.io/react-icons/)
-- [icones](https://icones.js.org)
-- [react-hook-form](https://react-hook-form.com)
 - [zod](https://zod.dev)
+- [react-hook-form](https://react-hook-form.com)
+- [ushooks-ts](https://usehooks-ts.com)
+- [react-icon](https://react-icons.github.io/react-icons/)
+- [iconify-react](https://iconify.design) [npmjs](https://www.npmjs.com/package/@iconify-icon/react)
+- [icones](https://icones.js.org)
 
 ## vscode扩展
 
@@ -33,3 +36,7 @@
 ### 视频
 
 - [Creative CSS Loading Animations](https://www.youtube.com/watch?v=ttWXapXj4cg&list=PL5e68lK9hEzeeXtsQCQYd9SAzj6u6wZpi)
+
+### 文章
+
+- [5个小而隐蔽的React库，你应该已经在使用了](https://tehub.com/a/cxL5WzOAzC)

@@ -8,14 +8,19 @@
     "./tailwind.config": "./tailwind.config.ts",
     "./lib/*": "./src/lib/*.ts",
     "./hooks/*": "./src/hooks/*.ts",
-    "./components/*": "./src/components/*.tsx"
+    "./components/*": "./src/components/*.tsx",
+    "./nra/*": "./src/components/nra/*.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
+    "@iconify-icon/react": "^2.1.0",
+    "@iconify-json/ant-design": "^1.2.1",
+    "@iconify-json/carbon": "^1.2.1",
     "@repo/eslint-config": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@turbo/gen": "^1.12.4",
     "@types/eslint": "^8.56.5",
@@ -26,7 +31,6 @@
     "eslint": "^8.57.0",
     "postcss": "^8.4.47",
     "styled-components": "^6.1.13",
-    "@repo/tailwind-config": "workspace:*",
     "tailwindcss": "^3.4.12",
     "typescript": "^5.3.3"
   },
